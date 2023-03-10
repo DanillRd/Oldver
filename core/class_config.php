@@ -1,0 +1,17 @@
+<?php
+
+$SITE_PREFIX = "";
+$JREU_PREFIX = "jreu_";
+$REMBUSH_PREFIX = "rembush_";
+
+$COMPANY_NAME= "";
+$COMPANY_NAME_JREU = "КП «ЖРЕУ»";
+$COMPANY_NAME_REMBUSH = "ТОВ «Компанія Рембудшлях»";
+
+$SITE_PREFIX = $REMBUSH_PREFIX;
+
+if ($SITE_PREFIX == $JREU_PREFIX)       $COMPANY_NAME = $COMPANY_NAME_JREU;
+if ($SITE_PREFIX == $REMBUSH_PREFIX)    $COMPANY_NAME = $COMPANY_NAME_REMBUSH;
+
+
+?>
